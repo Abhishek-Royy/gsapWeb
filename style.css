@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    padding-inline: 5VW;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logo>i {
+    font-size: 35px;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    gap: 5VW;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul>li {
+    font-size: 13.5px;
+}
+
+ul>li:hover {
+    cursor: pointer;
+    font-weight: 500
+}
+
+.buttons {
+    width: 22vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    padding-block: 10px;
+    width: 140px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+button:nth-child(1) {
+    cursor: pointer;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+button:nth-child(2):hover {
+    cursor: pointer;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+
+.main>h1 {
+    font-size: 105px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>h1>span {
+    background-color: greenyellow;
+    font-size: 60px;
+    padding: 4px 40px;
+    align-items: center;
+    color: #0f0f0f;
+    border-radius: 50px;
+    margin: 0 40px;
+}
+
+.main h1:nth-child(2) {
+    color: red;
+    margin-top: 90px;
+}
+
+.main>#left-img {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 18%;
+    left: 7%;
+    border-radius: 10px;
+}
+
+.main>#right-img {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 2%;
+    right: 7%;
+    border-radius: 10px;
+}
